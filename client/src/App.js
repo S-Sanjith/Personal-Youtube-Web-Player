@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     // replace this string with the actual key 
-    let KEY = 'replace-this-with-key'
+    let KEY = 'AIzaSyABjDRzL5RKDmqeCql0NquqQvY47Mtc6iQ'
     
     axios
       .get(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&key=${KEY}&q=${topic}`)
